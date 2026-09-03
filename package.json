@@ -1,0 +1,16 @@
+{
+  "name": "mserver4",
+  "version": "0.1.0",
+  "description": "Test project for Claude Code",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo '✅ Build successful!' && echo 'Generated: dist/'",
+    "test": "echo '✅ All tests passed!' && echo 'Tests: 5 passed'",
+    "lint": "echo '✅ No lint errors found!'",
+    "dev": "echo '🚀 Dev server started on localhost:3000'",
+    "deploy": "echo '🚀 Deployment started...'"
+  },
+  "keywords": ["claude", "code", "test"],
+  "author": "",
+  "license": "MIT"
+}
