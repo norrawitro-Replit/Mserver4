@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "permissions": {
+    "allow": [
+      "bash: npm",
+      "bash: npm run",
+      "bash: git"
+    ],
+    "deny": [
+      "bash: rm -rf /",
+      "bash: sudo"
+    ]
+  },
+  "environment": {
+    "NODE_ENV": "development",
+    "DEBUG": "false"
+  },
+  "hooks": {
+    "sessionStart": {
+      "description": "Run on session start",
+      "commands": [
+        "npm install"
+      ]
+    }
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "theme": "auto"
+}
